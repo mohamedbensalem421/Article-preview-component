@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Article preview component</title>
+  </head>
+  <body class="flex justify-center items-center h-screen px-[15px] bg-[#E4EAF1]">
+    <div class="container md:w-[700px] md:flex rounded-[10px] max-md:overflow-hidden bg-white relative">
+      <div class="md:rounded-l-[8px] md:w-[40%] overflow-hidden">
+        <img class=" h-[100%]" src="./images/drawers.jpg" alt="">
+      </div>
+      <div class="content p-[35px] md:w-[60%]">
+        <p class="text-[21px] leading-7 text-[#4A5061]">Shift the overall look and feel by adding these wonderful touches to furniture in you home</p>
+        <p class="text-gray-400 py-[15px] text-xs">Ever been in aroom and felt like something was missing? Perhaps it felt slightly bare and univiting. I've got some simple tips to help you make any room feel complete.</p>
+        <div class="user flex gap-[20px] items-center">
+          <img class="w-[50px] rounded-full" src="./images/avatar-michelle.jpg" alt="">
+          <div>
+            <p class="font-bold text-xs text-[#4A5061]">Michelle Appleton</p>
+            <p class="text-gray-400 text-xs pt-[5px]">28 Jun 2020</p>
+          </div>
+          <button class="ml-auto bg-[#EFF2F8] rounded-full relative z-10"><i class=" p-[10px] text-[#4B556A] fa-solid fa-share"></i></button>
+          <div class="social bg-[#4B556A] absolute text-white flex opacity-0 items-center gap-[15px] md:py-[14px] px-[30px] md:rounded-[10px] after:content-[''] after:border-[20px] after:border-transparent after:border-t-[#4B556A] after:top-[40px] after:left-[50%] after:translate-x-[-50%] after:absolute shadow-lg shadow-gray-400 right-[-70px] md:top-[130px] max-md:w-full max-md:left-0 max-md:bottom-[0px] max-md:py-[25px] ">
+            <p class="tracking-[8px] text-gray-400 text-xs">SHARE</p>
+            <img src="./images/icon-facebook.svg" alt="">
+            <img src="./images/icon-twitter.svg" alt="">
+            <img src="./images/icon-pinterest.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
